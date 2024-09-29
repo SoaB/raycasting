@@ -3,7 +3,7 @@ HEADFILE =
 SRCDIR = ../src
 BUILD_DIR = ./bin
 PROJECT_SOURCE_FILES ?= \
-    main.c barrier.c ray.c particle.c
+    main.c barrier.c  particle.c fnoise.c
 
 # Define all object files from source files
 OBJS = $(patsubst %.c,%.o,$(PROJECT_SOURCE_FILES)) 
